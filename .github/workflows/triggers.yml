@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - aprendiendo-github-actions
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
@@ -18,7 +19,7 @@ on:
         default: Python
         required: true
         type: choice
-        options:
+        options: 
         - Python
         - JavaScript
         - Go
